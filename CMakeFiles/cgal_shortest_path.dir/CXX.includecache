@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clemens/cgal_programs/shortest-path-across-mesh/cgal_shortest_path.cpp
+CGAL/Exact_predicates_inexact_constructions_kernel.h
+-
+CGAL/Surface_mesh_shortest_path.h
+-
+CGAL/Simple_cartesian.h
+-
+CGAL/AABB_face_graph_triangle_primitive.h
+-
+CGAL/AABB_traits.h
+-
+CGAL/AABB_tree.h
+-
+CGAL/Surface_mesh.h
+-
+boost/lexical_cast.hpp
+-
+cmath
+-
+boost/python.hpp
+-
+cstdlib
+-
+fstream
+-
+
