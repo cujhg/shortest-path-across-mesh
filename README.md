@@ -8,7 +8,7 @@ Only Ubuntu
 2. cgal 5.2
 3. cmake 3.16.3
 4. trimesh (only for example.py)
-The stated versions are the ones with which the software was developed. 
+The stated versions are the ones with which the module was developed. 
 
 ## Installation
 
