@@ -1,5 +1,0 @@
-/home/clemens/shortest-path-across-mesh/CMakeFiles/rebuild_cache.dir
-/home/clemens/shortest-path-across-mesh/CMakeFiles/edit_cache.dir
-/home/clemens/shortest-path-across-mesh/CMakeFiles/cgal_shortest_path.dir
-/home/clemens/shortest-path-across-mesh/extern/pybind11/CMakeFiles/rebuild_cache.dir
-/home/clemens/shortest-path-across-mesh/extern/pybind11/CMakeFiles/edit_cache.dir
