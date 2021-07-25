@@ -10,11 +10,15 @@ Tested on Linux.
 The stated versions are the ones with which the module was developed. Other may work as well.
 
 ## Installation
-
 1. cd ~/path/to/shortest-path-accross-mesh
 2. cmake -DCMAKE_BUILD_TYPE=Release .
 3. make
 This creates a .so file which can be importet into python.
+
+## Methods
+1. intersect: Find intersection point between the mesh and a line defined by two points
+2. shortest_distance: Find the shortest distance between two abitrary points lying on a mesh
+3. shortest_path: Find the shortest path between two arbitrary points lying on a mesh
 
 ## Usage
 See example.py
