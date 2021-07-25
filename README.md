@@ -1,5 +1,7 @@
 # shortest-path-across-mesh
-A python module which offers the functionality to compute the shortest path between to points across an arbitrary 3d triangle-mesh.  Tested on Linux.
+A python module which offers the functionality to compute the shortest path between to points across an arbitrary 3d triangle-mesh. 
+
+Tested on Linux.
 
 ## Dependencies
 1. pybind
