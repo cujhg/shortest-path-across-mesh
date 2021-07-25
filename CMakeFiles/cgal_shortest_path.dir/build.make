@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/clemens/cgal_programs/shortest-path-across-mesh
+CMAKE_SOURCE_DIR = /home/clemens/shortest-path-across-mesh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/clemens/cgal_programs/shortest-path-across-mesh
+CMAKE_BINARY_DIR = /home/clemens/shortest-path-across-mesh
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cgal_shortest_path.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cgal_shortest_path.dir/flags.make
 
 CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o: CMakeFiles/cgal_shortest_path.dir/flags.make
 CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o: cgal_shortest_path.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clemens/cgal_programs/shortest-path-across-mesh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o -c /home/clemens/cgal_programs/shortest-path-across-mesh/cgal_shortest_path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/clemens/shortest-path-across-mesh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o"
+	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o -c /home/clemens/shortest-path-across-mesh/cgal_shortest_path.cpp
 
 CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clemens/cgal_programs/shortest-path-across-mesh/cgal_shortest_path.cpp > CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/clemens/shortest-path-across-mesh/cgal_shortest_path.cpp > CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.i
 
 CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clemens/cgal_programs/shortest-path-across-mesh/cgal_shortest_path.cpp -o CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/clemens/shortest-path-across-mesh/cgal_shortest_path.cpp -o CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.s
 
 # Object files for target cgal_shortest_path
 cgal_shortest_path_OBJECTS = \
@@ -77,20 +77,17 @@ cgal_shortest_path_OBJECTS = \
 # External object files for target cgal_shortest_path
 cgal_shortest_path_EXTERNAL_OBJECTS =
 
-cgal_shortest_path.so: CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o
-cgal_shortest_path.so: CMakeFiles/cgal_shortest_path.dir/build.make
-cgal_shortest_path.so: /usr/lib/x86_64-linux-gnu/libboost_python38.so.1.71.0
-cgal_shortest_path.so: /usr/lib/x86_64-linux-gnu/libboost_numpy38.so.1.71.0
-cgal_shortest_path.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-cgal_shortest_path.so: /usr/lib/x86_64-linux-gnu/libmpfr.so
-cgal_shortest_path.so: /usr/lib/x86_64-linux-gnu/libgmp.so
-cgal_shortest_path.so: /usr/lib/x86_64-linux-gnu/libboost_python38.so.1.71.0
-cgal_shortest_path.so: CMakeFiles/cgal_shortest_path.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/clemens/cgal_programs/shortest-path-across-mesh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module cgal_shortest_path.so"
+cgal_shortest_path.cpython-38-x86_64-linux-gnu.so: CMakeFiles/cgal_shortest_path.dir/cgal_shortest_path.cpp.o
+cgal_shortest_path.cpython-38-x86_64-linux-gnu.so: CMakeFiles/cgal_shortest_path.dir/build.make
+cgal_shortest_path.cpython-38-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libmpfr.so
+cgal_shortest_path.cpython-38-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libgmp.so
+cgal_shortest_path.cpython-38-x86_64-linux-gnu.so: CMakeFiles/cgal_shortest_path.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/clemens/shortest-path-across-mesh/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module cgal_shortest_path.cpython-38-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cgal_shortest_path.dir/link.txt --verbose=$(VERBOSE)
+	/usr/bin/strip /home/clemens/shortest-path-across-mesh/cgal_shortest_path.cpython-38-x86_64-linux-gnu.so
 
 # Rule to build all files generated by this target.
-CMakeFiles/cgal_shortest_path.dir/build: cgal_shortest_path.so
+CMakeFiles/cgal_shortest_path.dir/build: cgal_shortest_path.cpython-38-x86_64-linux-gnu.so
 
 .PHONY : CMakeFiles/cgal_shortest_path.dir/build
 
@@ -99,6 +96,6 @@ CMakeFiles/cgal_shortest_path.dir/clean:
 .PHONY : CMakeFiles/cgal_shortest_path.dir/clean
 
 CMakeFiles/cgal_shortest_path.dir/depend:
-	cd /home/clemens/cgal_programs/shortest-path-across-mesh && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/clemens/cgal_programs/shortest-path-across-mesh /home/clemens/cgal_programs/shortest-path-across-mesh /home/clemens/cgal_programs/shortest-path-across-mesh /home/clemens/cgal_programs/shortest-path-across-mesh /home/clemens/cgal_programs/shortest-path-across-mesh/CMakeFiles/cgal_shortest_path.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/clemens/shortest-path-across-mesh && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/clemens/shortest-path-across-mesh /home/clemens/shortest-path-across-mesh /home/clemens/shortest-path-across-mesh /home/clemens/shortest-path-across-mesh /home/clemens/shortest-path-across-mesh/CMakeFiles/cgal_shortest_path.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cgal_shortest_path.dir/depend
 
