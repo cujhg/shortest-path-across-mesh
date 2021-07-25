@@ -1,4 +1,6 @@
 # shortest-path-across-mesh
+![](/data/elephant.png)
+
 A python module which offers the functionality to compute the shortest path between to points across an arbitrary 3d triangle-mesh. 
 
 Tested on Linux.
