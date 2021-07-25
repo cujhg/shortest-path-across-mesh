@@ -10,9 +10,11 @@ Tested on Linux.
 The stated versions are the ones with which the module was developed. Other may work as well.
 
 ## Installation
-1. cd ~/path/to/shortest-path-accross-mesh
-2. cmake -DCMAKE_BUILD_TYPE=Release .
-3. make
+```console
+cd ~/path/to/shortest-path-accross-mesh
+cmake -DCMAKE_BUILD_TYPE=Release .
+make
+```
 This creates a .so file which can be importet into python.
 
 ## Methods
