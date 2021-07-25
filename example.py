@@ -9,7 +9,7 @@ mesh_from_data = cgal_shortest_path.cgal_shortest_path(mesh.vertices, mesh.faces
 start_point = mesh_from_data.intersect([1.0, 1.0, 1.0], [-1.0, -1.0, -1.0])
 end_point = mesh_from_data.intersect([1.0, 0.5, 1.0], [-1.0, -0.5, -1.0])
 
-path = mesh_from_data.shortest_path([-0.5, -0.5, nan], [0, 1, 0])
+path = mesh_from_data.shortest_path([-0.5, -0.5, -0.25], [0, 1, 0])
 distance = mesh_from_data.shortest_distance([-0.5, 0.5, -0.25], [0, 1, 0])
 
 print(distance)
